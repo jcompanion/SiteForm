@@ -23,7 +23,7 @@
 <hr class="top-hr">
 <main>
     
-    <form action="index.html" method="POST">
+    <form action="#" method="">
         <fieldset class="top-field">
             <legend>Contact Information</legend>
             <div class="box">
@@ -48,7 +48,7 @@
             </div>
             <div class="box">
                 <label class="top-form" for="state">State</label>
-                    <select id="state">
+                    <select>
                         <option value="n-a" disabled selected>Choose State</option>
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
@@ -128,8 +128,8 @@
             <div>
                 <input type="radio" name="format" id="plain-text"><label for="plain-text">Plain Text</label>
             </div>
-            <p>Other topics you'd like to hear about</p>
-            <textarea id="comment" rows="4" cols="50"></textarea>
+            <label id="comment-label" for="comment">Other topics you'd like to hear about</label>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
             <button type="submit">Sign Up</button>
         </fieldset>
        
